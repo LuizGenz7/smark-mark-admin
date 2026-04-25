@@ -48,7 +48,7 @@ const AuthScreen = () => {
           Smart Mark
         </p>
         <p className="tracking-[4px] text-sm text-slate-500">
-          Marking With Care
+          Marking Made Better
         </p>
       </div>
 
