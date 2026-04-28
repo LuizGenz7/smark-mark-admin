@@ -20,7 +20,7 @@ export default function handler(req, res) {
     const config = {
       latestVersion: "54.1.0",
       minimumVersion: "54.0.3",
-      updateUrl: "https://smart-mark-admin.vercel.app/update",
+      updateUrl: "https://smartmarkapks.vercel.app/",
       message: "New features + bug fixes 🔥",
     };
 
