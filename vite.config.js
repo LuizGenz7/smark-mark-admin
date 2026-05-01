@@ -9,10 +9,15 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: "autoUpdate",
+      injectRegister: "auto",
+
+      includeAssets: ["pwa-192x192.png", "pwa-512x512.png"],
+
       manifest: {
         name: "Smark Mark Admin",
         short_name: "SmarkMark",
         start_url: "/",
+        scope: "/",
         display: "standalone",
         background_color: "#0f172a",
         theme_color: "#0f172a",
